@@ -1,0 +1,118 @@
+﻿Build started 27/05/2013 4:15:37 PM.
+     1>Project "C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sf_sip.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\sf_sip.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libs /I..\include /I"..\..\win32\Win32-Includes" /I.\ /I"..\..\win32\Win32-Includes\WinPCAP" /I..\..\..\daq\api /I..\..\..\daq\sfbpf /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D ENABLE_PAF /D SF_SNORT_PREPROC_DLL /D DYNAMIC_PLUGIN /D _WINDOWS /D _USRDLL /D ACTIVE_RESPONSE /D GRE /D MPLS /D TARGET_BASED /D PERF_PROFILING /D ENABLE_RESPOND /D ENABLE_REACT /D _WINDLL /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\include\sfPolicyUserData.c ..\include\sf_dynamic_preproc_lib.c ..\include\sf_ip.c sip_config.c sip_dialog.c sip_parser.c sip_roptions.c sip_utils.c spp_sip.c
+         spp_sip.c
+         sip_utils.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_utils.c(129): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+         sip_roptions.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_roptions.c(101): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_roptions.c(250): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_roptions.c(308): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_roptions.c(407): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+         sip_parser.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_parser.c(184): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_parser.c(191): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_parser.c(231): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_parser.c(1055): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         sip_dialog.c
+         sip_config.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(157): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(324): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(335): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(343): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(424): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(435): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(453): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(480): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(489): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(588): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(605): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(631): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(639): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(647): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(655): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(663): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(671): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(679): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(688): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(696): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(704): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sip_config.c(721): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+         sf_ip.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_ip.c(237): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_ip.c(481): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_ip.c(507): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         sf_dynamic_preproc_lib.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_dynamic_preproc_lib.c(48): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_dynamic_preproc_lib.c(86): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         sfPolicyUserData.c
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\sf_sip.dll" /INCREMENTAL /NOLOGO ws2_32.lib /MANIFEST /ManifestFile:".\Debug\sf_sip.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\Debug\sf_sip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\sf_sip.lib" /MACHINE:X86 /DLL .\Debug\sf_sip.dll.embed.manifest.res
+         .\Debug\inet_aton.obj
+         .\Debug\inet_pton.obj
+         .\Debug\sf_dynamic_preproc_lib.obj
+         .\Debug\sf_ip.obj
+         .\Debug\sfPolicyUserData.obj
+         .\Debug\sip_config.obj
+         .\Debug\sip_dialog.obj
+         .\Debug\sip_parser.obj
+         .\Debug\sip_roptions.obj
+         .\Debug\sip_utils.obj
+         .\Debug\spp_sip.obj
+         .\Debug\strtok_r.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\sf_sip.dll.embed.manifest" /manifest .\Debug\sf_sip.dll.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         sf_sip.vcxproj -> C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\.\Debug\sf_sip.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\sf_sip.unsuccessfulbuild".
+         Touching ".\Debug\sf_sip.lastbuildstate".
+     1>Done Building Project "C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\sip\sf_sip.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.89

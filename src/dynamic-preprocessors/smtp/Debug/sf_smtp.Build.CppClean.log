@@ -1,0 +1,53 @@
+.\Debug\sf_smtp.ilk
+.\Debug\sf_smtp.pdb
+C:\NEW FOLDER\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\MEMPOOL.OBJ
+C:\NEW FOLDER\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_EMAIL_ATTACH_DECODE.OBJ
+C:\NEW FOLDER\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_SDLIST.OBJ
+C:\NEW FOLDER\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SFPOLICYUSERDATA.OBJ
+C:\NEW FOLDER\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\VC100.PDB
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\.\Debug\sf_smtp.dll
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\.\Debug\sf_smtp.dll.intermediate.manifest
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\cl.command.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\CL.read.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\CL.write.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link.12208.read.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link.12208.write.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link.12208-cvtres.read.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link.12208-cvtres.write.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link.command.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link.read.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link.write.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link-cvtres.read.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\link-cvtres.write.1.tlog
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\MEMPOOL.OBJ
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\mt.command.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\mt.read.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\mt.write.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\rc.command.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\rc.read.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\rc.write.1.tlog
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_BASE64DECODE.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_DYNAMIC_PREPROC_LIB.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_EMAIL_ATTACH_DECODE.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_SDLIST.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_SMTP.DLL
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_SMTP.DLL.EMBED.MANIFEST
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_SMTP.DLL.EMBED.MANIFEST.RES
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_SMTP.DLL.INTERMEDIATE.MANIFEST
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\sf_smtp.exp
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_SMTP.ILK
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\sf_smtp.lib
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SF_SMTP.PDB
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\sf_smtp.write.1.tlog
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\sf_smtp_manifest.rc
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SFPOLICYUSERDATA.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SMTP_CONFIG.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SMTP_LOG.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SMTP_NORMALIZE.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SMTP_UTIL.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SMTP_XLINK2STATE.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SNORT_SMTP.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\SPP_SMTP.OBJ
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\UTIL_UNFOLD.OBJ
+C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\vc100.idb
+C:\TUTS\SNORT-2.9.4.6\SRC\DYNAMIC-PREPROCESSORS\SMTP\DEBUG\VC100.PDB

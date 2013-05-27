@@ -1,0 +1,42 @@
+﻿Build started 27/05/2013 10:56:55 AM.
+     1>Project "C:\Tuts\snort-2.9.4.6\tools\u2spewfoo\u2spewfoo.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\u2spewfoo.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\u2spewfoo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\src\win32\WIN32-Includes" /I..\..\src\sfutil /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt u2spewfoo.c
+         u2spewfoo.c
+     1>c:\tuts\snort-2.9.4.6\tools\u2spewfoo\u2spewfoo.c(78): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\tuts\snort-2.9.4.6\tools\u2spewfoo\u2spewfoo.c(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\tuts\snort-2.9.4.6\tools\u2spewfoo\u2spewfoo.c(133): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\tuts\snort-2.9.4.6\tools\u2spewfoo\u2spewfoo.c(138): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>c:\tuts\snort-2.9.4.6\tools\u2spewfoo\u2spewfoo.c(150): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\tuts\snort-2.9.4.6\tools\u2spewfoo\u2spewfoo.c(549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\u2spewfoo.exe.embed.manifest.res" .\Debug\u2spewfoo_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\u2spewfoo.exe" /INCREMENTAL /NOLOGO wsock32.lib /MANIFEST /ManifestFile:".\Debug\u2spewfoo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Tuts\snort-2.9.4.6\tools\u2spewfoo\Debug\u2spewfoo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\u2spewfoo.lib" /MACHINE:X86 .\Debug\u2spewfoo.exe.embed.manifest.res
+         .\Debug\u2spewfoo.obj
+       Manifest:
+         Deleting file ".\Debug\u2spewfoo.exe.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\u2spewfoo.exe.embed.manifest" /manifest .\Debug\u2spewfoo.exe.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\u2spewfoo.exe.embed.manifest.res" .\Debug\u2spewfoo_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\u2spewfoo.exe" /INCREMENTAL /NOLOGO wsock32.lib /MANIFEST /ManifestFile:".\Debug\u2spewfoo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Tuts\snort-2.9.4.6\tools\u2spewfoo\Debug\u2spewfoo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\u2spewfoo.lib" /MACHINE:X86 .\Debug\u2spewfoo.exe.embed.manifest.res
+         .\Debug\u2spewfoo.obj
+         u2spewfoo.vcxproj -> C:\Tuts\snort-2.9.4.6\tools\u2spewfoo\.\Debug\u2spewfoo.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\u2spewfoo.unsuccessfulbuild".
+         Touching ".\Debug\u2spewfoo.lastbuildstate".
+     1>Done Building Project "C:\Tuts\snort-2.9.4.6\tools\u2spewfoo\u2spewfoo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.56

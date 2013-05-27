@@ -1,0 +1,59 @@
+﻿Build started 27/05/2013 4:20:34 PM.
+     1>Project "C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\sf_engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\SF_Engine_Debug\sf_engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\Win32-Includes\zlib" /I"..\..\dynamic-plugins" /I"..\..\dynamic-plugins\sf_engine" /I"..\Win32-Includes" /I..\..\..\daq\api /I..\..\..\daq\sfbpf /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D ENABLE_PAF /D SF_SNORT_ENGINE_DLL /D DYNAMIC_PLUGIN /D _WINDOWS /D _USRDLL /D ACTIVE_RESPONSE /D GRE /D MPLS /D TARGET_BASED /D PERF_PROFILING /D ENABLE_RESPOND /D ENABLE_REACT /D ZLIB /D _WINDLL /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\SF_Engine_Debug\\" /Fd".\SF_Engine_Debug\vc100.pdb" /FR".\SF_Engine_Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\..\dynamic-plugins\sf_engine\sf_snort_plugin_byte.c" "..\..\dynamic-plugins\sf_engine\sf_snort_plugin_content.c" "..\..\dynamic-plugins\sf_engine\sf_snort_plugin_hdropts.c" "..\..\dynamic-plugins\sf_engine\sf_snort_plugin_loop.c" "..\..\dynamic-plugins\sf_engine\sf_snort_plugin_pcre.c" "..\..\dynamic-plugins\sf_engine\sf_snort_plugin_rc4.c" "..\..\dynamic-plugins\sf_engine\sfhashfcn.c"
+         sfhashfcn.c
+         sf_snort_plugin_rc4.c
+         sf_snort_plugin_pcre.c
+         sf_snort_plugin_loop.c
+         sf_snort_plugin_hdropts.c
+         sf_snort_plugin_content.c
+         sf_snort_plugin_byte.c
+         Generating Code...
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\.. /I"..\Win32-Includes\mysql" /I"..\Win32-Includes\libnet" /I"..\..\output-plugins" /I"..\..\detection-plugins" /I..\..\preprocessors /I..\..\preprocessors\flow /I..\..\preprocessors\portscan /I"..\..\preprocessors\flow\int-snort" /I..\..\preprocessors\HttpInspect\Include /I"..\Win32-Includes\zlib" /I"..\..\dynamic-plugins" /I"..\..\dynamic-plugins\sf_engine" /I"..\Win32-Includes" /I..\..\..\daq\api /I..\..\..\daq\sfbpf /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D ENABLE_PAF /D SF_SNORT_ENGINE_DLL /D DYNAMIC_PLUGIN /D _WINDOWS /D _USRDLL /D ACTIVE_RESPONSE /D GRE /D MPLS /D TARGET_BASED /D PERF_PROFILING /D ENABLE_RESPOND /D ENABLE_REACT /D ZLIB /D _WINDLL /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\SF_Engine_Debug\\" /Fd".\SF_Engine_Debug\vc100.pdb" /FR".\SF_Engine_Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\..\dynamic-plugins\sf_engine\sf_snort_detection_engine.c" "..\..\dynamic-plugins\sf_engine\sf_snort_plugin_api.c"
+         sf_snort_plugin_api.c
+         sf_snort_detection_engine.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-plugins\sf_engine\sf_snort_detection_engine.c(74): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-plugins\sf_engine\sf_snort_detection_engine.c(147): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-plugins\sf_engine\sf_snort_detection_engine.c(1283): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-plugins\sf_engine\sf_snort_detection_engine.c(1285): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\SF_Engine_Debug\sf_engine.dll" /INCREMENTAL /NOLOGO /LIBPATH:"..\Win32-Libraries" zlib1.lib Ws2_32.lib pcre.lib /MANIFEST /ManifestFile:".\SF_Engine_Debug\sf_engine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\SF_Engine_Debug\sf_engine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\SF_Engine_Debug\sf_engine.lib" /MACHINE:X86 /DLL .\SF_Engine_Debug\sf_engine.dll.embed.manifest.res
+         .\SF_Engine_Debug\bmh.obj
+         .\SF_Engine_Debug\sf_decompression.obj
+         .\SF_Engine_Debug\sf_snort_detection_engine.obj
+         .\SF_Engine_Debug\sf_snort_plugin_api.obj
+         .\SF_Engine_Debug\sf_snort_plugin_byte.obj
+         .\SF_Engine_Debug\sf_snort_plugin_content.obj
+         .\SF_Engine_Debug\sf_snort_plugin_hdropts.obj
+         .\SF_Engine_Debug\sf_snort_plugin_loop.obj
+         .\SF_Engine_Debug\sf_snort_plugin_pcre.obj
+         .\SF_Engine_Debug\sf_snort_plugin_rc4.obj
+         .\SF_Engine_Debug\sfghash.obj
+         .\SF_Engine_Debug\sfhashfcn.obj
+         .\SF_Engine_Debug\sfprimetable.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\SF_Engine_Debug\sf_engine.dll.embed.manifest" /manifest .\SF_Engine_Debug\sf_engine.dll.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         sf_engine.vcxproj -> C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\.\SF_Engine_Debug\sf_engine.dll
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\SF_Engine_Debug\sf_engine.bsc" .\SF_Engine_Debug\bmh.sbr .\SF_Engine_Debug\sf_decompression.sbr .\SF_Engine_Debug\sf_snort_detection_engine.sbr .\SF_Engine_Debug\sf_snort_plugin_api.sbr .\SF_Engine_Debug\sf_snort_plugin_byte.sbr .\SF_Engine_Debug\sf_snort_plugin_content.sbr .\SF_Engine_Debug\sf_snort_plugin_hdropts.sbr .\SF_Engine_Debug\sf_snort_plugin_loop.sbr .\SF_Engine_Debug\sf_snort_plugin_pcre.sbr .\SF_Engine_Debug\sf_snort_plugin_rc4.sbr .\SF_Engine_Debug\sfghash.sbr .\SF_Engine_Debug\sfhashfcn.sbr .\SF_Engine_Debug\sfprimetable.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\SF_Engine_Debug\sf_engine.unsuccessfulbuild".
+         Touching ".\SF_Engine_Debug\sf_engine.lastbuildstate".
+     1>Done Building Project "C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\sf_engine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:39.99

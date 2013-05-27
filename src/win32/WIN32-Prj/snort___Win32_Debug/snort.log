@@ -1,0 +1,238 @@
+﻿Build started 27/05/2013 4:18:58 PM.
+     1>Project "C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\snort.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\snort___Win32_Debug\snort.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\Win32-Includes\mysql" /I"..\..\dynamic-output\plugins" /I"..\Win32-Includes\zlib" /I..\..\.. /I..\.. /I..\..\control /I..\..\sfutil /I"..\..\target-based" /I"..\Win32-Includes" /I"..\Win32-Includes\libnet" /I"..\Win32-Includes\WinPCAP" /I"..\..\output-plugins" /I"..\..\detection-plugins" /I"..\..\dynamic-plugins" /I..\..\preprocessors /I..\..\preprocessors\portscan /I..\..\preprocessors\HttpInspect\Include /I..\..\preprocessors\Stream5 /I..\..\..\daq\api /I..\..\..\daq\sfbpf /I"..\Win32-Includes\libdnet" /I"..\..\file-process" /I"..\..\file-process\libs" /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D OUTPUT_DLL /D _CONSOLE /D __BEGIN_DECLS= /D __END_DECLS= /D ENABLE_RESPOND /D ENABLE_WIN32_SERVICE /D ZLIB /D ENABLE_RESPONSE3 /D DYNAMIC_PLUGIN /D _WINDOWS /D _USRDLL /D ACTIVE_RESPONSE /D ENABLE_REACT /D GRE /D MPLS /D TARGET_BASED /D PERF_PROFILING /D ENABLE_PAF /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\snort___Win32_Debug\\" /Fd".\snort___Win32_Debug\vc100.pdb" /FR".\snort___Win32_Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\..\detection-plugins\sf_snort_plugin_hdropts.c" "..\..\target-based\sf_attribute_table.c" "..\..\target-based\sf_attribute_table_parser.c"
+         sf_attribute_table_parser.c
+     1>../../target-based/sf_attribute_table_parser.c(6922): warning C4003: not enough actual parameters for macro 'sfatwrap'
+     1>../../target-based/sf_attribute_table_parser.c(7075): warning C4018: '<' : signed/unsigned mismatch
+     1>../../target-based/sf_attribute_table_parser.l(208): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         sf_attribute_table.c
+         sf_snort_plugin_hdropts.c
+         Generating Code...
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\snort___Win32_Debug\snort.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\daq\Debug /LIBPATH:"..\Win32-Libraries" /LIBPATH:"..\Win32-Libraries\libdnet" zlib.lib dnet.lib daq.lib Packet.lib iphlpapi.lib wsock32.lib advapi32.lib pcre.lib wpcap.lib /MANIFEST /ManifestFile:".\snort___Win32_Debug\snort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\snort___Win32_Debug\snort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\snort___Win32_Debug\snort.lib" /MACHINE:X86 .\snort___Win32_Debug\name.res
+         .\snort___Win32_Debug\snort.exe.embed.manifest.res
+         .\snort___Win32_Debug\detection_options.obj
+         .\snort___Win32_Debug\sf_snort_plugin_hdropts.obj
+         .\snort___Win32_Debug\sp_asn1.obj
+         .\snort___Win32_Debug\sp_asn1_detect.obj
+         .\snort___Win32_Debug\sp_base64_data.obj
+         .\snort___Win32_Debug\sp_base64_decode.obj
+         .\snort___Win32_Debug\sp_byte_check.obj
+         .\snort___Win32_Debug\sp_byte_extract.obj
+         .\snort___Win32_Debug\sp_byte_jump.obj
+         .\snort___Win32_Debug\sp_clientserver.obj
+         .\snort___Win32_Debug\sp_cvs.obj
+         .\snort___Win32_Debug\sp_dsize_check.obj
+         .\snort___Win32_Debug\sp_file_data.obj
+         .\snort___Win32_Debug\sp_flowbits.obj
+         .\snort___Win32_Debug\sp_ftpbounce.obj
+         .\snort___Win32_Debug\sp_hdr_opt_wrap.obj
+         .\snort___Win32_Debug\sp_icmp_code_check.obj
+         .\snort___Win32_Debug\sp_icmp_id_check.obj
+         .\snort___Win32_Debug\sp_icmp_seq_check.obj
+         .\snort___Win32_Debug\sp_icmp_type_check.obj
+         .\snort___Win32_Debug\sp_ip_fragbits.obj
+         .\snort___Win32_Debug\sp_ip_id_check.obj
+         .\snort___Win32_Debug\sp_ip_proto.obj
+         .\snort___Win32_Debug\sp_ip_same_check.obj
+         .\snort___Win32_Debug\sp_ip_tos_check.obj
+         .\snort___Win32_Debug\sp_ipoption_check.obj
+         .\snort___Win32_Debug\sp_isdataat.obj
+         .\snort___Win32_Debug\sp_pattern_match.obj
+         .\snort___Win32_Debug\sp_pcre.obj
+         .\snort___Win32_Debug\sp_pkt_data.obj
+         .\snort___Win32_Debug\sp_react.obj
+         .\snort___Win32_Debug\sp_replace.obj
+         .\snort___Win32_Debug\sp_respond3.obj
+         .\snort___Win32_Debug\sp_rpc_check.obj
+         .\snort___Win32_Debug\sp_session.obj
+         .\snort___Win32_Debug\sp_tcp_ack_check.obj
+         .\snort___Win32_Debug\sp_tcp_flag_check.obj
+         .\snort___Win32_Debug\sp_tcp_seq_check.obj
+         .\snort___Win32_Debug\sp_tcp_win_check.obj
+         .\snort___Win32_Debug\sp_ttl_check.obj
+         .\snort___Win32_Debug\sp_urilen_check.obj
+         .\snort___Win32_Debug\spo_alert_fast.obj
+         .\snort___Win32_Debug\spo_alert_full.obj
+         .\snort___Win32_Debug\spo_alert_sf_socket.obj
+         .\snort___Win32_Debug\spo_alert_syslog.obj
+         .\snort___Win32_Debug\spo_alert_test.obj
+         .\snort___Win32_Debug\spo_alert_unixsock.obj
+         .\snort___Win32_Debug\spo_csv.obj
+         .\snort___Win32_Debug\spo_log_ascii.obj
+         .\snort___Win32_Debug\spo_log_null.obj
+         .\snort___Win32_Debug\spo_log_tcpdump.obj
+         .\snort___Win32_Debug\spo_unified.obj
+         .\snort___Win32_Debug\spo_unified2.obj
+         .\snort___Win32_Debug\IpAddrSet.obj
+         .\snort___Win32_Debug\hi_ad.obj
+         .\snort___Win32_Debug\hi_client.obj
+         .\snort___Win32_Debug\hi_client_norm.obj
+         .\snort___Win32_Debug\hi_eo_log.obj
+         .\snort___Win32_Debug\hi_mi.obj
+         .\snort___Win32_Debug\hi_norm.obj
+         .\snort___Win32_Debug\hi_server.obj
+         .\snort___Win32_Debug\hi_server_norm.obj
+         .\snort___Win32_Debug\hi_si.obj
+         .\snort___Win32_Debug\hi_ui_config.obj
+         .\snort___Win32_Debug\hi_ui_iis_unicode_map.obj
+         .\snort___Win32_Debug\hi_ui_server_lookup.obj
+         .\snort___Win32_Debug\hi_cmd_lookup.obj
+         .\snort___Win32_Debug\hi_paf.obj
+         .\snort___Win32_Debug\hi_util_hbm.obj
+         .\snort___Win32_Debug\hi_util_kmap.obj
+         .\snort___Win32_Debug\hi_util_xmalloc.obj
+         .\snort___Win32_Debug\snort_stream5_icmp.obj
+         .\snort___Win32_Debug\snort_stream5_ip.obj
+         .\snort___Win32_Debug\snort_stream5_session.obj
+         .\snort___Win32_Debug\snort_stream5_tcp.obj
+         .\snort___Win32_Debug\snort_stream5_udp.obj
+         .\snort___Win32_Debug\stream5_common.obj
+         .\snort___Win32_Debug\stream5_paf.obj
+         .\snort___Win32_Debug\normalize.obj
+         ".\snort___Win32_Debug\perf-base.obj"
+         ".\snort___Win32_Debug\perf-event.obj"
+         ".\snort___Win32_Debug\perf-flow.obj"
+         .\snort___Win32_Debug\perf.obj
+         .\snort___Win32_Debug\portscan.obj
+         .\snort___Win32_Debug\sfprocpidstats.obj
+         .\snort___Win32_Debug\snort_httpinspect.obj
+         .\snort___Win32_Debug\spp_arpspoof.obj
+         .\snort___Win32_Debug\spp_bo.obj
+         .\snort___Win32_Debug\spp_frag3.obj
+         .\snort___Win32_Debug\spp_httpinspect.obj
+         .\snort___Win32_Debug\spp_normalize.obj
+         .\snort___Win32_Debug\spp_perfmonitor.obj
+         .\snort___Win32_Debug\spp_rpc_decode.obj
+         .\snort___Win32_Debug\spp_sfportscan.obj
+         .\snort___Win32_Debug\spp_stream5.obj
+         .\snort___Win32_Debug\str_search.obj
+         .\snort___Win32_Debug\stream_api.obj
+         .\snort___Win32_Debug\stream_expect.obj
+         .\snort___Win32_Debug\acsmx.obj
+         .\snort___Win32_Debug\acsmx2.obj
+         .\snort___Win32_Debug\asn1.obj
+         .\snort___Win32_Debug\bnfa_search.obj
+         .\snort___Win32_Debug\event_queue.obj
+         .\snort___Win32_Debug\getopt_long.obj
+         .\snort___Win32_Debug\ipobj.obj
+         .\snort___Win32_Debug\mpse.obj
+         .\snort___Win32_Debug\sf_base64decode.obj
+         .\snort___Win32_Debug\sf_email_attach_decode.obj
+         .\snort___Win32_Debug\sf_ip.obj
+         .\snort___Win32_Debug\sf_iph.obj
+         .\snort___Win32_Debug\sf_ipvar.obj
+         .\snort___Win32_Debug\sf_textlog.obj
+         .\snort___Win32_Debug\sf_vartable.obj
+         .\snort___Win32_Debug\sfActionQueue.obj
+         .\snort___Win32_Debug\sfeventq.obj
+         .\snort___Win32_Debug\sfghash.obj
+         .\snort___Win32_Debug\sfhashfcn.obj
+         .\snort___Win32_Debug\sfksearch.obj
+         .\snort___Win32_Debug\sflsq.obj
+         .\snort___Win32_Debug\sfmemcap.obj
+         .\snort___Win32_Debug\sfPolicy.obj
+         .\snort___Win32_Debug\sfPolicyUserData.obj
+         .\snort___Win32_Debug\sfportobject.obj
+         .\snort___Win32_Debug\sfprimetable.obj
+         .\snort___Win32_Debug\sfrf.obj
+         .\snort___Win32_Debug\sfrim.obj
+         .\snort___Win32_Debug\sfrt.obj
+         .\snort___Win32_Debug\sfrt_dir.obj
+         .\snort___Win32_Debug\sfsnprintfappend.obj
+         .\snort___Win32_Debug\sfthd.obj
+         .\snort___Win32_Debug\sfxhash.obj
+         .\snort___Win32_Debug\strvec.obj
+         .\snort___Win32_Debug\util_jsnorm.obj
+         .\snort___Win32_Debug\util_math.obj
+         .\snort___Win32_Debug\util_net.obj
+         .\snort___Win32_Debug\util_str.obj
+         .\snort___Win32_Debug\util_unfold.obj
+         .\snort___Win32_Debug\util_utf.obj
+         .\snort___Win32_Debug\sf_convert_dynamic.obj
+         .\snort___Win32_Debug\sf_dynamic_plugins.obj
+         .\snort___Win32_Debug\sp_dynamic.obj
+         .\snort___Win32_Debug\sp_preprocopt.obj
+         .\snort___Win32_Debug\sf_attribute_table.obj
+         .\snort___Win32_Debug\sf_attribute_table_parser.obj
+         .\snort___Win32_Debug\sftarget_hostentry.obj
+         .\snort___Win32_Debug\sftarget_protocol_reference.obj
+         .\snort___Win32_Debug\sftarget_reader.obj
+         .\snort___Win32_Debug\sfcontrol.obj
+         .\snort___Win32_Debug\output_base.obj
+         .\snort___Win32_Debug\output_lib.obj
+         .\snort___Win32_Debug\output_plugin.obj
+         .\snort___Win32_Debug\file_config.obj
+         .\snort___Win32_Debug\file_identifier.obj
+         .\snort___Win32_Debug\file_lib.obj
+         .\snort___Win32_Debug\file_sha256.obj
+         .\snort___Win32_Debug\file_service.obj
+         .\snort___Win32_Debug\file_service_config.obj
+         .\snort___Win32_Debug\active.obj
+         .\snort___Win32_Debug\byte_extract.obj
+         .\snort___Win32_Debug\debug.obj
+         .\snort___Win32_Debug\decode.obj
+         .\snort___Win32_Debug\detect.obj
+         .\snort___Win32_Debug\detection_filter.obj
+         .\snort___Win32_Debug\detection_util.obj
+         .\snort___Win32_Debug\encode.obj
+         .\snort___Win32_Debug\event_wrapper.obj
+         .\snort___Win32_Debug\fpcreate.obj
+         .\snort___Win32_Debug\fpdetect.obj
+         .\snort___Win32_Debug\idle_processing.obj
+         .\snort___Win32_Debug\log.obj
+         .\snort___Win32_Debug\log_text.obj
+         .\snort___Win32_Debug\mempool.obj
+         .\snort___Win32_Debug\mstring.obj
+         .\snort___Win32_Debug\obfuscation.obj
+         .\snort___Win32_Debug\packet_time.obj
+         .\snort___Win32_Debug\parser.obj
+         .\snort___Win32_Debug\pcrm.obj
+         .\snort___Win32_Debug\plugbase.obj
+         .\snort___Win32_Debug\profiler.obj
+         .\snort___Win32_Debug\rate_filter.obj
+         .\snort___Win32_Debug\sf_sdlist.obj
+         .\snort___Win32_Debug\sfdaq.obj
+         .\snort___Win32_Debug\sfthreshold.obj
+         .\snort___Win32_Debug\signature.obj
+         .\snort___Win32_Debug\snort.obj
+         .\snort___Win32_Debug\snprintf.obj
+         .\snort___Win32_Debug\strlcatu.obj
+         .\snort___Win32_Debug\strlcpyu.obj
+         .\snort___Win32_Debug\tag.obj
+         .\snort___Win32_Debug\util.obj
+         .\snort___Win32_Debug\getopt.obj
+         .\snort___Win32_Debug\inet_aton.obj
+         .\snort___Win32_Debug\inet_pton.obj
+         .\snort___Win32_Debug\misc.obj
+         .\snort___Win32_Debug\strtok_r.obj
+         .\snort___Win32_Debug\syslog.obj
+         .\snort___Win32_Debug\win32_service.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\snort___Win32_Debug\snort.exe.embed.manifest" /manifest .\snort___Win32_Debug\snort.exe.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         snort.vcxproj -> C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\.\snort___Win32_Debug\snort.exe
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\snort___Win32_Debug\snort.bsc" .\snort___Win32_Debug\detection_options.sbr .\snort___Win32_Debug\sf_snort_plugin_hdropts.sbr .\snort___Win32_Debug\sp_asn1.sbr .\snort___Win32_Debug\sp_asn1_detect.sbr .\snort___Win32_Debug\sp_base64_data.sbr .\snort___Win32_Debug\sp_base64_decode.sbr .\snort___Win32_Debug\sp_byte_check.sbr .\snort___Win32_Debug\sp_byte_extract.sbr .\snort___Win32_Debug\sp_byte_jump.sbr .\snort___Win32_Debug\sp_clientserver.sbr .\snort___Win32_Debug\sp_cvs.sbr .\snort___Win32_Debug\sp_dsize_check.sbr .\snort___Win32_Debug\sp_file_data.sbr .\snort___Win32_Debug\sp_flowbits.sbr .\snort___Win32_Debug\sp_ftpbounce.sbr .\snort___Win32_Debug\sp_hdr_opt_wrap.sbr .\snort___Win32_Debug\sp_icmp_code_check.sbr .\snort___Win32_Debug\sp_icmp_id_check.sbr .\snort___Win32_Debug\sp_icmp_seq_check.sbr .\snort___Win32_Debug\sp_icmp_type_check.sbr .\snort___Win32_Debug\sp_ip_fragbits.sbr .\snort___Win32_Debug\sp_ip_id_check.sbr .\snort___Win32_Debug\sp_ip_proto.sbr .\snort___Win32_Debug\sp_ip_same_check.sbr .\snort___Win32_Debug\sp_ip_tos_check.sbr .\snort___Win32_Debug\sp_ipoption_check.sbr .\snort___Win32_Debug\sp_isdataat.sbr .\snort___Win32_Debug\sp_pattern_match.sbr .\snort___Win32_Debug\sp_pcre.sbr .\snort___Win32_Debug\sp_pkt_data.sbr .\snort___Win32_Debug\sp_react.sbr .\snort___Win32_Debug\sp_replace.sbr .\snort___Win32_Debug\sp_respond3.sbr .\snort___Win32_Debug\sp_rpc_check.sbr .\snort___Win32_Debug\sp_session.sbr .\snort___Win32_Debug\sp_tcp_ack_check.sbr .\snort___Win32_Debug\sp_tcp_flag_check.sbr .\snort___Win32_Debug\sp_tcp_seq_check.sbr .\snort___Win32_Debug\sp_tcp_win_check.sbr .\snort___Win32_Debug\sp_ttl_check.sbr .\snort___Win32_Debug\sp_urilen_check.sbr .\snort___Win32_Debug\spo_alert_fast.sbr .\snort___Win32_Debug\spo_alert_full.sbr .\snort___Win32_Debug\spo_alert_sf_socket.sbr .\snort___Win32_Debug\spo_alert_syslog.sbr .\snort___Win32_Debug\spo_alert_test.sbr .\snort___Win32_Debug\spo_alert_unixsock.sbr .\snort___Win32_Debug\spo_csv.sbr .\snort___Win32_Debug\spo_log_ascii.sbr .\snort___Win32_Debug\spo_log_null.sbr .\snort___Win32_Debug\spo_log_tcpdump.sbr .\snort___Win32_Debug\spo_unified.sbr .\snort___Win32_Debug\spo_unified2.sbr .\snort___Win32_Debug\IpAddrSet.sbr .\snort___Win32_Debug\hi_ad.sbr .\snort___Win32_Debug\hi_client.sbr .\snort___Win32_Debug\hi_client_norm.sbr .\snort___Win32_Debug\hi_eo_log.sbr .\snort___Win32_Debug\hi_mi.sbr .\snort___Win32_Debug\hi_norm.sbr .\snort___Win32_Debug\hi_server.sbr .\snort___Win32_Debug\hi_server_norm.sbr .\snort___Win32_Debug\hi_si.sbr .\snort___Win32_Debug\hi_ui_config.sbr .\snort___Win32_Debug\hi_ui_iis_unicode_map.sbr .\snort___Win32_Debug\hi_ui_server_lookup.sbr .\snort___Win32_Debug\hi_cmd_lookup.sbr .\snort___Win32_Debug\hi_paf.sbr .\snort___Win32_Debug\hi_util_hbm.sbr .\snort___Win32_Debug\hi_util_kmap.sbr .\snort___Win32_Debug\hi_util_xmalloc.sbr .\snort___Win32_Debug\snort_stream5_icmp.sbr .\snort___Win32_Debug\snort_stream5_ip.sbr .\snort___Win32_Debug\snort_stream5_session.sbr .\snort___Win32_Debug\snort_stream5_tcp.sbr .\snort___Win32_Debug\snort_stream5_udp.sbr .\snort___Win32_Debug\stream5_common.sbr .\snort___Win32_Debug\stream5_paf.sbr .\snort___Win32_Debug\normalize.sbr ".\snort___Win32_Debug\perf-base.sbr" ".\snort___Win32_Debug\perf-event.sbr" ".\snort___Win32_Debug\perf-flow.sbr" .\snort___Win32_Debug\perf.sbr .\snort___Win32_Debug\portscan.sbr .\snort___Win32_Debug\sfprocpidstats.sbr .\snort___Win32_Debug\snort_httpinspect.sbr .\snort___Win32_Debug\spp_arpspoof.sbr .\snort___Win32_Debug\spp_bo.sbr .\snort___Win32_Debug\spp_frag3.sbr .\snort___Win32_Debug\spp_httpinspect.sbr .\snort___Win32_Debug\spp_normalize.sbr .\snort___Win32_Debug\spp_perfmonitor.sbr .\snort___Win32_Debug\spp_rpc_decode.sbr .\snort___Win32_Debug\spp_sfportscan.sbr .\snort___Win32_Debug\spp_stream5.sbr .\snort___Win32_Debug\str_search.sbr .\snort___Win32_Debug\stream_api.sbr .\snort___Win32_Debug\stream_expect.sbr .\snort___Win32_Debug\acsmx.sbr .\snort___Win32_Debug\acsmx2.sbr .\snort___Win32_Debug\asn1.sbr .\snort___Win32_Debug\bnfa_search.sbr .\snort___Win32_Debug\event_queue.sbr .\snort___Win32_Debug\getopt_long.sbr .\snort___Win32_Debug\ipobj.sbr .\snort___Win32_Debug\mpse.sbr .\snort___Win32_Debug\sf_base64decode.sbr .\snort___Win32_Debug\sf_email_attach_decode.sbr .\snort___Win32_Debug\sf_ip.sbr .\snort___Win32_Debug\sf_iph.sbr .\snort___Win32_Debug\sf_ipvar.sbr .\snort___Win32_Debug\sf_textlog.sbr .\snort___Win32_Debug\sf_vartable.sbr .\snort___Win32_Debug\sfActionQueue.sbr .\snort___Win32_Debug\sfeventq.sbr .\snort___Win32_Debug\sfghash.sbr .\snort___Win32_Debug\sfhashfcn.sbr .\snort___Win32_Debug\sfksearch.sbr .\snort___Win32_Debug\sflsq.sbr .\snort___Win32_Debug\sfmemcap.sbr .\snort___Win32_Debug\sfPolicy.sbr .\snort___Win32_Debug\sfPolicyUserData.sbr .\snort___Win32_Debug\sfportobject.sbr .\snort___Win32_Debug\sfprimetable.sbr .\snort___Win32_Debug\sfrf.sbr .\snort___Win32_Debug\sfrim.sbr .\snort___Win32_Debug\sfrt.sbr .\snort___Win32_Debug\sfrt_dir.sbr .\snort___Win32_Debug\sfsnprintfappend.sbr .\snort___Win32_Debug\sfthd.sbr .\snort___Win32_Debug\sfxhash.sbr .\snort___Win32_Debug\strvec.sbr .\snort___Win32_Debug\util_jsnorm.sbr .\snort___Win32_Debug\util_math.sbr .\snort___Win32_Debug\util_net.sbr .\snort___Win32_Debug\util_str.sbr .\snort___Win32_Debug\util_unfold.sbr .\snort___Win32_Debug\util_utf.sbr .\snort___Win32_Debug\sf_convert_dynamic.sbr .\snort___Win32_Debug\sf_dynamic_plugins.sbr .\snort___Win32_Debug\sp_dynamic.sbr .\snort___Win32_Debug\sp_preprocopt.sbr .\snort___Win32_Debug\sf_attribute_table.sbr .\snort___Win32_Debug\sf_attribute_table_parser.sbr .\snort___Win32_Debug\sftarget_hostentry.sbr .\snort___Win32_Debug\sftarget_protocol_reference.sbr .\snort___Win32_Debug\sftarget_reader.sbr .\snort___Win32_Debug\sfcontrol.sbr .\snort___Win32_Debug\output_base.sbr .\snort___Win32_Debug\output_lib.sbr .\snort___Win32_Debug\output_plugin.sbr .\snort___Win32_Debug\file_config.sbr .\snort___Win32_Debug\file_identifier.sbr .\snort___Win32_Debug\file_lib.sbr .\snort___Win32_Debug\file_sha256.sbr .\snort___Win32_Debug\file_service.sbr .\snort___Win32_Debug\file_service_config.sbr .\snort___Win32_Debug\active.sbr .\snort___Win32_Debug\byte_extract.sbr .\snort___Win32_Debug\debug.sbr .\snort___Win32_Debug\decode.sbr .\snort___Win32_Debug\detect.sbr .\snort___Win32_Debug\detection_filter.sbr .\snort___Win32_Debug\detection_util.sbr .\snort___Win32_Debug\encode.sbr .\snort___Win32_Debug\event_wrapper.sbr .\snort___Win32_Debug\fpcreate.sbr .\snort___Win32_Debug\fpdetect.sbr .\snort___Win32_Debug\idle_processing.sbr .\snort___Win32_Debug\log.sbr .\snort___Win32_Debug\log_text.sbr .\snort___Win32_Debug\mempool.sbr .\snort___Win32_Debug\mstring.sbr .\snort___Win32_Debug\obfuscation.sbr .\snort___Win32_Debug\packet_time.sbr .\snort___Win32_Debug\parser.sbr .\snort___Win32_Debug\pcrm.sbr .\snort___Win32_Debug\plugbase.sbr .\snort___Win32_Debug\profiler.sbr .\snort___Win32_Debug\rate_filter.sbr .\snort___Win32_Debug\sf_sdlist.sbr .\snort___Win32_Debug\sfdaq.sbr .\snort___Win32_Debug\sfthreshold.sbr .\snort___Win32_Debug\signature.sbr .\snort___Win32_Debug\snort.sbr .\snort___Win32_Debug\snprintf.sbr .\snort___Win32_Debug\strlcatu.sbr .\snort___Win32_Debug\strlcpyu.sbr .\snort___Win32_Debug\tag.sbr .\snort___Win32_Debug\util.sbr .\snort___Win32_Debug\getopt.sbr .\snort___Win32_Debug\inet_aton.sbr .\snort___Win32_Debug\inet_pton.sbr .\snort___Win32_Debug\misc.sbr .\snort___Win32_Debug\strtok_r.sbr .\snort___Win32_Debug\syslog.sbr .\snort___Win32_Debug\win32_service.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\snort___Win32_Debug\snort.unsuccessfulbuild".
+         Touching ".\snort___Win32_Debug\snort.lastbuildstate".
+     1>Done Building Project "C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\snort.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:09.91

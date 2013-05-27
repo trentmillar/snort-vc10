@@ -1,0 +1,287 @@
+﻿Build started 27/05/2013 4:15:34 PM.
+     1>Project "C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\sf_smtp.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\sf_smtp.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libs /I..\include /I"..\..\win32\Win32-Includes" /I.\ /I"..\..\win32\Win32-Includes\WinPCAP" /I..\..\..\daq\api /I..\..\..\daq\sfbpf /ZI /nologo /W3 /WX- /Od /Oy- /D SF_SNORT_PREPROC_DLL /D _DEBUG /D DEBUG /D ENABLE_PAF /D DYNAMIC_PLUGIN /D _WINDOWS /D _USRDLL /D ACTIVE_RESPONSE /D GRE /D MPLS /D TARGET_BASED /D PERF_PROFILING /D ENABLE_RESPOND /D ENABLE_REACT /D _WINDLL /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\include\mempool.c ..\include\sfPolicyUserData.c ..\include\sf_dynamic_preproc_lib.c ..\include\sf_email_attach_decode.c ..\include\sf_sdlist.c smtp_config.c smtp_log.c smtp_normalize.c smtp_util.c smtp_xlink2state.c snort_smtp.c spp_smtp.c
+         spp_smtp.c
+         snort_smtp.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\snort_smtp.c(398): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\snort_smtp.c(1277): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\snort_smtp.c(1743): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+         smtp_xlink2state.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_xlink2state.c(152): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_xlink2state.c(156): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+         smtp_util.c
+         smtp_normalize.c
+         smtp_log.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_log.c(97): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(354) : see declaration of 'vsnprintf'
+         smtp_config.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(134): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(138): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(142): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(144): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(149): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(158): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(160): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(165): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(169): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(178): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(182): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(186): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(196): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(200): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(206): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(210): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(216): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(220): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(224): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(229): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(234): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(239): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(244): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(248): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(252): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(260): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(268): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(272): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(276): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(280): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(284): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(288): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(292): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(297): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(301): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(306): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(310): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(314): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(342): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(568): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(583): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(623): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(638): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(649): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(666): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(673): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(693): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(835): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(839): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(842): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(849): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(859): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(875): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(883): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(896): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(903): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(937): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(941): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(944): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(952): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(957): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(987): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1002): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1077): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1117): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1121): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1129): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1138): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1154): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1158): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1162): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1170): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1179): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1195): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1199): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1203): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1211): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1220): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1243): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1247): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1251): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1260): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1269): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1301): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1305): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1309): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1317): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1325): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1391): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1396): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1400): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1405): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1409): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1418): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1427): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1432): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1448): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1481): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1485): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1489): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1498): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1503): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1511): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1516): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1521): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1526): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\smtp_config.c(1538): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         sf_sdlist.c
+         sf_email_attach_decode.c
+         sf_dynamic_preproc_lib.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_dynamic_preproc_lib.c(48): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_dynamic_preproc_lib.c(86): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         sfPolicyUserData.c
+         mempool.c
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\sf_smtp.dll" /INCREMENTAL /NOLOGO /LIBPATH:"../../../src/win32/WIN32-Libraries" pcre.lib ws2_32.lib ../libs/Debug/sfdynamic_preproc_libs.lib /MANIFEST /ManifestFile:".\Debug\sf_smtp.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\Debug\sf_smtp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\sf_smtp.lib" /MACHINE:X86 /DLL .\Debug\sf_smtp.dll.embed.manifest.res
+         .\Debug\mempool.obj
+         .\Debug\sf_base64decode.obj
+         .\Debug\sf_dynamic_preproc_lib.obj
+         .\Debug\sf_email_attach_decode.obj
+         .\Debug\sf_sdlist.obj
+         .\Debug\sfPolicyUserData.obj
+         .\Debug\smtp_config.obj
+         .\Debug\smtp_log.obj
+         .\Debug\smtp_normalize.obj
+         .\Debug\smtp_util.obj
+         .\Debug\smtp_xlink2state.obj
+         .\Debug\snort_smtp.obj
+         .\Debug\spp_smtp.obj
+         .\Debug\util_unfold.obj
+            Creating library .\Debug\sf_smtp.lib and object .\Debug\sf_smtp.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\sf_smtp.dll.embed.manifest" /manifest .\Debug\sf_smtp.dll.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         sf_smtp.vcxproj -> C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\.\Debug\sf_smtp.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\sf_smtp.unsuccessfulbuild".
+         Touching ".\Debug\sf_smtp.lastbuildstate".
+     1>Done Building Project "C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\smtp\sf_smtp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:53.72

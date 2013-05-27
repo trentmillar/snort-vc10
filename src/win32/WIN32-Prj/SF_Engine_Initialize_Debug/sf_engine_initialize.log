@@ -1,0 +1,37 @@
+﻿Build started 27/05/2013 4:17:43 PM.
+     1>Project "C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\sf_engine_initialize.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\SF_Engine_Initialize_Debug\sf_engine_initialize.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+         Performing Custom Build Tools
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file ".\SF_Engine_Initialize_Debug\sf_engine_initialize.unsuccessfulbuild".
+         Touching ".\SF_Engine_Initialize_Debug\sf_engine_initialize.lastbuildstate".
+     1>Done Building Project "C:\Tuts\snort-2.9.4.6\src\win32\WIN32-Prj\sf_engine_initialize.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.00

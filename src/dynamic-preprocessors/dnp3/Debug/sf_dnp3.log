@@ -1,0 +1,47 @@
+﻿Build started 27/05/2013 4:15:13 PM.
+     1>Project "C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\dnp3\sf_dnp3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\sf_dnp3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libs /I..\include /I"..\..\win32\Win32-Includes" /I.\ /I"..\..\win32\Win32-Includes\WinPCAP" /I..\..\..\daq\api /I..\..\..\daq\sfbpf /ZI /nologo /W3 /WX- /Od /Oy- /D SF_SNORT_PREPROC_DLL /D _DEBUG /D DEBUG /D ENABLE_PAF /D DYNAMIC_PLUGIN /D _WINDOWS /D _USRDLL /D ACTIVE_RESPONSE /D GRE /D MPLS /D TARGET_BASED /D PERF_PROFILING /D ENABLE_RESPOND /D ENABLE_REACT /D _WINDLL /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\include\mempool.c ..\include\sfPolicyUserData.c ..\include\sf_dynamic_preproc_lib.c ..\include\sf_sdlist.c dnp3_paf.c dnp3_reassembly.c dnp3_roptions.c spp_dnp3.c
+         spp_dnp3.c
+         dnp3_roptions.c
+         dnp3_reassembly.c
+         dnp3_paf.c
+         sf_sdlist.c
+         sf_dynamic_preproc_lib.c
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_dynamic_preproc_lib.c(48): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>c:\tuts\snort-2.9.4.6\src\dynamic-preprocessors\include\sf_dynamic_preproc_lib.c(86): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         sfPolicyUserData.c
+         mempool.c
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\sf_dnp3.dll" /INCREMENTAL /NOLOGO ws2_32.lib /MANIFEST /ManifestFile:".\Debug\sf_dnp3.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\dnp3\Debug\sf_dnp3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\sf_dnp3.lib" /MACHINE:X86 /DLL .\Debug\sf_dnp3.dll.embed.manifest.res
+         .\Debug\dnp3_map.obj
+         .\Debug\dnp3_paf.obj
+         .\Debug\dnp3_reassembly.obj
+         .\Debug\dnp3_roptions.obj
+         .\Debug\mempool.obj
+         .\Debug\sf_dynamic_preproc_lib.obj
+         .\Debug\sf_sdlist.obj
+         .\Debug\sfPolicyUserData.obj
+         .\Debug\spp_dnp3.obj
+         .\Debug\strtok_r.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\sf_dnp3.dll.embed.manifest" /manifest .\Debug\sf_dnp3.dll.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         sf_dnp3.vcxproj -> C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\dnp3\.\Debug\sf_dnp3.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\sf_dnp3.unsuccessfulbuild".
+         Touching ".\Debug\sf_dnp3.lastbuildstate".
+     1>Done Building Project "C:\Tuts\snort-2.9.4.6\src\dynamic-preprocessors\dnp3\sf_dnp3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.75
