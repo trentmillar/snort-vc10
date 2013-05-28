@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build_all", "build_all.vcxproj", "{9CAB8EE0-4C50-162E-487F-851F10319640}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build_all.11", "src\win32\WIN32-Prj\build_all.11.vcxproj", "{9CAB8EE0-4C50-162E-487F-851F10319640}"
 	ProjectSection(ProjectDependencies) = postProject
 		{58DEC737-3D44-45C4-7F4B-FAE1AE6F12E6} = {58DEC737-3D44-45C4-7F4B-FAE1AE6F12E6}
 		{D5A3AD95-2133-53D1-BC8E-76CC87CA57F7} = {D5A3AD95-2133-53D1-BC8E-76CC87CA57F7}
@@ -10,7 +10,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build_all", "build_all.vcxp
 		{37A9F3C8-71FF-D757-F52F-AF220668EF60} = {37A9F3C8-71FF-D757-F52F-AF220668EF60}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_preprocessors", "..\..\dynamic-preprocessors\dynamic_preprocessors.vcxproj", "{58DEC737-3D44-45C4-7F4B-FAE1AE6F12E6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_preprocessors.11", "src\dynamic-preprocessors\dynamic_preprocessors.11.vcxproj", "{58DEC737-3D44-45C4-7F4B-FAE1AE6F12E6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CFC0A342-C7AF-DE7F-EDF2-A049608B597C} = {CFC0A342-C7AF-DE7F-EDF2-A049608B597C}
 		{740682C0-E377-3311-F06E-C22D625D9804} = {740682C0-E377-3311-F06E-C22D625D9804}
@@ -20,108 +20,68 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_preprocessors", "..
 		{3A37687D-7306-0064-17A7-0496FFE01DF1} = {3A37687D-7306-0064-17A7-0496FFE01DF1}
 		{B4840AC6-A5A0-0978-32B3-847656BE5841} = {B4840AC6-A5A0-0978-32B3-847656BE5841}
 		{5BB80C1F-AC4A-AF0B-C026-6410D653D417} = {5BB80C1F-AC4A-AF0B-C026-6410D653D417}
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
 		{EDD643FB-CD3F-0BFF-336D-51E29001935B} = {EDD643FB-CD3F-0BFF-336D-51E29001935B}
-		{3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46} = {3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46}
 		{1E3EC446-9918-6BF7-B834-F2AA1175EA94} = {1E3EC446-9918-6BF7-B834-F2AA1175EA94}
 		{DDCCF157-928E-C5FB-5514-D1A025FCA510} = {DDCCF157-928E-C5FB-5514-D1A025FCA510}
 		{15138E00-F002-236E-D646-077DFE2980AE} = {15138E00-F002-236E-D646-077DFE2980AE}
 		{FE79A762-C966-9666-71A2-139F6F4B75FE} = {FE79A762-C966-9666-71A2-139F6F4B75FE}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_dce2", "..\..\dynamic-preprocessors\dcerpc2\sf_dce2.vcxproj", "{3A37687D-7306-0064-17A7-0496FFE01DF1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_dce2.11", "src\dynamic-preprocessors\dcerpc2\sf_dce2.11.vcxproj", "{3A37687D-7306-0064-17A7-0496FFE01DF1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_dnp3", "..\..\dynamic-preprocessors\dnp3\sf_dnp3.vcxproj", "{1E3EC446-9918-6BF7-B834-F2AA1175EA94}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_dnp3.11", "src\dynamic-preprocessors\dnp3\sf_dnp3.11.vcxproj", "{1E3EC446-9918-6BF7-B834-F2AA1175EA94}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_dns", "..\..\dynamic-preprocessors\dns\sf_dns.vcxproj", "{ADF48C52-49CD-371F-F729-A9A344319FB7}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_dns.11", "src\dynamic-preprocessors\dns\sf_dns.11.vcxproj", "{ADF48C52-49CD-371F-F729-A9A344319FB7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_dynamic_initialize", "..\..\dynamic-preprocessors\sf_dynamic_initialize\sf_dynamic_initialize.vcxproj", "{09D47C6D-9836-DA5F-8577-2607BFA435C1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_engine", "sf_engine.vcxproj", "{D5A3AD95-2133-53D1-BC8E-76CC87CA57F7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_engine.11", "src\win32\WIN32-Prj\sf_engine.11.vcxproj", "{D5A3AD95-2133-53D1-BC8E-76CC87CA57F7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{BE75CD3F-3460-F378-86B3-D214F2F6D24B} = {BE75CD3F-3460-F378-86B3-D214F2F6D24B}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_engine_initialize", "sf_engine_initialize.vcxproj", "{BE75CD3F-3460-F378-86B3-D214F2F6D24B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_engine_initialize.11", "src\win32\WIN32-Prj\sf_engine_initialize.11.vcxproj", "{BE75CD3F-3460-F378-86B3-D214F2F6D24B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_ftptelnet", "..\..\dynamic-preprocessors\ftptelnet\sf_ftptelnet.vcxproj", "{CFC0A342-C7AF-DE7F-EDF2-A049608B597C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_ftptelnet.11", "src\dynamic-preprocessors\ftptelnet\sf_ftptelnet.11.vcxproj", "{CFC0A342-C7AF-DE7F-EDF2-A049608B597C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_gtp.11", "src\dynamic-preprocessors\gtp\sf_gtp.11.vcxproj", "{FE79A762-C966-9666-71A2-139F6F4B75FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_imap.11", "src\dynamic-preprocessors\imap\sf_imap.11.vcxproj", "{EDD643FB-CD3F-0BFF-336D-51E29001935B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_modbus.11", "src\dynamic-preprocessors\modbus\sf_modbus.11.vcxproj", "{DDCCF157-928E-C5FB-5514-D1A025FCA510}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_reputation.11", "src\dynamic-preprocessors\reputation\sf_reputation.11.vcxproj", "{15138E00-F002-236E-D646-077DFE2980AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_sdf.11", "src\dynamic-preprocessors\sdf\sf_sdf.11.vcxproj", "{B4840AC6-A5A0-0978-32B3-847656BE5841}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_sip.11", "src\dynamic-preprocessors\sip\sf_sip.11.vcxproj", "{5BB80C1F-AC4A-AF0B-C026-6410D653D417}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_smtp.11", "src\dynamic-preprocessors\smtp\sf_smtp.11.vcxproj", "{740682C0-E377-3311-F06E-C22D625D9804}"
 	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_gtp", "..\..\dynamic-preprocessors\gtp\sf_gtp.vcxproj", "{FE79A762-C966-9666-71A2-139F6F4B75FE}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_imap", "..\..\dynamic-preprocessors\imap\sf_imap.vcxproj", "{EDD643FB-CD3F-0BFF-336D-51E29001935B}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_modbus", "..\..\dynamic-preprocessors\modbus\sf_modbus.vcxproj", "{DDCCF157-928E-C5FB-5514-D1A025FCA510}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_pop", "..\..\dynamic-preprocessors\pop\sf_pop.vcxproj", "{3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_reputation", "..\..\dynamic-preprocessors\reputation\sf_reputation.vcxproj", "{15138E00-F002-236E-D646-077DFE2980AE}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_sdf", "..\..\dynamic-preprocessors\sdf\sf_sdf.vcxproj", "{B4840AC6-A5A0-0978-32B3-847656BE5841}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_sip", "..\..\dynamic-preprocessors\sip\sf_sip.vcxproj", "{5BB80C1F-AC4A-AF0B-C026-6410D653D417}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_smtp", "..\..\dynamic-preprocessors\smtp\sf_smtp.vcxproj", "{740682C0-E377-3311-F06E-C22D625D9804}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
 		{E4AF72C7-C380-6BF2-E832-485D24F0E657} = {E4AF72C7-C380-6BF2-E832-485D24F0E657}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_ssh", "..\..\dynamic-preprocessors\ssh\sf_ssh.vcxproj", "{BDE0C931-493C-7349-D3FF-5EC48EF999AA}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_ssh.11", "src\dynamic-preprocessors\ssh\sf_ssh.11.vcxproj", "{BDE0C931-493C-7349-D3FF-5EC48EF999AA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_ssl", "..\..\dynamic-preprocessors\ssl\sf_ssl.vcxproj", "{7236457F-9159-F07E-E940-02E3C310A425}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_ssl.11", "src\dynamic-preprocessors\ssl\sf_ssl.11.vcxproj", "{7236457F-9159-F07E-E940-02E3C310A425}"
 	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
 		{E4AF72C7-C380-6BF2-E832-485D24F0E657} = {E4AF72C7-C380-6BF2-E832-485D24F0E657}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sfdynamic_preproc_libs", "..\..\dynamic-preprocessors\libs\sfdynamic_preproc_libs.vcxproj", "{E4AF72C7-C380-6BF2-E832-485D24F0E657}"
-	ProjectSection(ProjectDependencies) = postProject
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1} = {09D47C6D-9836-DA5F-8577-2607BFA435C1}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sfdynamic_preproc_libs.11", "src\dynamic-preprocessors\libs\sfdynamic_preproc_libs.11.vcxproj", "{E4AF72C7-C380-6BF2-E832-485D24F0E657}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snort", "snort.vcxproj", "{7950333E-8DDE-2FBA-E4BE-AE206EA94726}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snort.11", "src\win32\WIN32-Prj\snort.11.vcxproj", "{7950333E-8DDE-2FBA-E4BE-AE206EA94726}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0141ED10-0B17-0C47-E25A-BD7D7C8F8225} = {0141ED10-0B17-0C47-E25A-BD7D7C8F8225}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snort_initialize", "snort_initialize.vcxproj", "{0141ED10-0B17-0C47-E25A-BD7D7C8F8225}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snort_initialize.11", "src\win32\WIN32-Prj\snort_initialize.11.vcxproj", "{0141ED10-0B17-0C47-E25A-BD7D7C8F8225}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "u2spewfoo", "..\..\..\tools\u2spewfoo\u2spewfoo.vcxproj", "{37A9F3C8-71FF-D757-F52F-AF220668EF60}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "u2spewfoo.11", "tools\u2spewfoo\u2spewfoo.11.vcxproj", "{37A9F3C8-71FF-D757-F52F-AF220668EF60}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daq", "..\..\..\daq\daq.vcxproj", "{C5060B7A-F0FE-4881-AB58-764F23B454EA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daq.11", "daq\daq.11.vcxproj", "{C5060B7A-F0FE-4881-AB58-764F23B454EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_dynamic_initialize.11", "src\dynamic-preprocessors\sf_dynamic_initialize\sf_dynamic_initialize.11.vcxproj", "{28C4B0A4-DD6B-4EA0-8FA9-5D17AF5B079F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sf_pop.11", "src\dynamic-preprocessors\pop\sf_pop.11.vcxproj", "{20B7B3BC-9668-40D6-9C99-01E0894CCA3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -160,12 +120,6 @@ Global
 		{ADF48C52-49CD-371F-F729-A9A344319FB7}.Release|Win32.Build.0 = Release|Win32
 		{ADF48C52-49CD-371F-F729-A9A344319FB7}.Template|Win32.ActiveCfg = Template|Win32
 		{ADF48C52-49CD-371F-F729-A9A344319FB7}.Template|Win32.Build.0 = Template|Win32
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1}.Debug|Win32.ActiveCfg = Debug|Win32
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1}.Debug|Win32.Build.0 = Debug|Win32
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1}.Release|Win32.ActiveCfg = Release|Win32
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1}.Release|Win32.Build.0 = Release|Win32
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1}.Template|Win32.ActiveCfg = Template|Win32
-		{09D47C6D-9836-DA5F-8577-2607BFA435C1}.Template|Win32.Build.0 = Template|Win32
 		{D5A3AD95-2133-53D1-BC8E-76CC87CA57F7}.Debug|Win32.ActiveCfg = Debug|Win32
 		{D5A3AD95-2133-53D1-BC8E-76CC87CA57F7}.Debug|Win32.Build.0 = Debug|Win32
 		{D5A3AD95-2133-53D1-BC8E-76CC87CA57F7}.Release|Win32.ActiveCfg = Release|Win32
@@ -202,12 +156,6 @@ Global
 		{DDCCF157-928E-C5FB-5514-D1A025FCA510}.Release|Win32.Build.0 = Release|Win32
 		{DDCCF157-928E-C5FB-5514-D1A025FCA510}.Template|Win32.ActiveCfg = Template|Win32
 		{DDCCF157-928E-C5FB-5514-D1A025FCA510}.Template|Win32.Build.0 = Template|Win32
-		{3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46}.Debug|Win32.Build.0 = Debug|Win32
-		{3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46}.Release|Win32.ActiveCfg = Release|Win32
-		{3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46}.Release|Win32.Build.0 = Release|Win32
-		{3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46}.Template|Win32.ActiveCfg = Template|Win32
-		{3FC5A95A-1CC7-19E3-B56E-DCC54BD15E46}.Template|Win32.Build.0 = Template|Win32
 		{15138E00-F002-236E-D646-077DFE2980AE}.Debug|Win32.ActiveCfg = Debug|Win32
 		{15138E00-F002-236E-D646-077DFE2980AE}.Debug|Win32.Build.0 = Debug|Win32
 		{15138E00-F002-236E-D646-077DFE2980AE}.Release|Win32.ActiveCfg = Release|Win32
@@ -274,6 +222,18 @@ Global
 		{C5060B7A-F0FE-4881-AB58-764F23B454EA}.Release|Win32.Build.0 = Release|Win32
 		{C5060B7A-F0FE-4881-AB58-764F23B454EA}.Template|Win32.ActiveCfg = Template|Win32
 		{C5060B7A-F0FE-4881-AB58-764F23B454EA}.Template|Win32.Build.0 = Template|Win32
+		{28C4B0A4-DD6B-4EA0-8FA9-5D17AF5B079F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28C4B0A4-DD6B-4EA0-8FA9-5D17AF5B079F}.Debug|Win32.Build.0 = Debug|Win32
+		{28C4B0A4-DD6B-4EA0-8FA9-5D17AF5B079F}.Release|Win32.ActiveCfg = Release|Win32
+		{28C4B0A4-DD6B-4EA0-8FA9-5D17AF5B079F}.Release|Win32.Build.0 = Release|Win32
+		{28C4B0A4-DD6B-4EA0-8FA9-5D17AF5B079F}.Template|Win32.ActiveCfg = Template|Win32
+		{28C4B0A4-DD6B-4EA0-8FA9-5D17AF5B079F}.Template|Win32.Build.0 = Template|Win32
+		{20B7B3BC-9668-40D6-9C99-01E0894CCA3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20B7B3BC-9668-40D6-9C99-01E0894CCA3B}.Debug|Win32.Build.0 = Debug|Win32
+		{20B7B3BC-9668-40D6-9C99-01E0894CCA3B}.Release|Win32.ActiveCfg = Release|Win32
+		{20B7B3BC-9668-40D6-9C99-01E0894CCA3B}.Release|Win32.Build.0 = Release|Win32
+		{20B7B3BC-9668-40D6-9C99-01E0894CCA3B}.Template|Win32.ActiveCfg = Template|Win32
+		{20B7B3BC-9668-40D6-9C99-01E0894CCA3B}.Template|Win32.Build.0 = Template|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
