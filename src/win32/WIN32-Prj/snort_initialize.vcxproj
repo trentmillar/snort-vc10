@@ -64,6 +64,7 @@
       <TypeLibraryName>.\Snort_Initialize_Release\snort_initialize.tlb</TypeLibraryName>
     </Midl>
   </ItemDefinitionGroup>
+  <!--
   <ItemGroup>
     <CustomBuild Include="..\..\dynamic-plugins\sf_engine\sf_snort_packet.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) ..\..\detection-plugins</Command>
@@ -88,6 +89,7 @@ c:\cygwin\bin\sed -e "s/_ded.errMsg/ErrorMessage/g" -e "s/sf_snort_packet.h/deco
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\detection-plugins\$(InputName).c;..\..\detection-plugins\$(InputName).c.new;%(Outputs)</Outputs>
     </CustomBuild>
   </ItemGroup>
+  -->
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

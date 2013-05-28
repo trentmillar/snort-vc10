@@ -598,6 +598,7 @@
     <ClInclude Include="..\WIN32-Includes\UNISTD.H" />
     <ClInclude Include="..\WIN32-Includes\rpc\xdr.h" />
   </ItemGroup>
+  <!--
   <ItemGroup>
     <CustomBuild Include="..\..\target-based\sf_attribute_table.y">
       <FileType>Document</FileType>
@@ -620,6 +621,7 @@
       <FileType>Document</FileType>
     </CustomBuild>
   </ItemGroup>
+  -->
   <ItemGroup>
     <ResourceCompile Include="..\WIN32-Code\name.rc" />
   </ItemGroup>

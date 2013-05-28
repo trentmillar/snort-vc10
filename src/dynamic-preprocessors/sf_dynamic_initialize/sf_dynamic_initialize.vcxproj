@@ -64,6 +64,7 @@
       <TypeLibraryName>.\Release\sf_dynamic_initialize.tlb</TypeLibraryName>
     </Midl>
   </ItemDefinitionGroup>
+  <!--
   <ItemGroup>
     <CustomBuild Include="..\..\sfutil\bitop.h"> 
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include</Command>
@@ -75,67 +76,67 @@ copy "%(FullPath)" "..\include" </Command>
     </CustomBuild>
     <CustomBuild Include="..\..\cpuclock.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
     </CustomBuild>
     <CustomBuild Include="..\..\event.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
     </CustomBuild>
     <CustomBuild Include="..\..\file-process\file_api.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
     </CustomBuild>
     <CustomBuild Include="..\..\file-process\libs\file_lib.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
     </CustomBuild>
     <CustomBuild Include="..\..\idle_processing.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir ..\include 
-copy %(FullPath) ..\include </Command>
+copy "%(FullPath)" ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\include\$(InputName).h;%(Outputs)</Outputs>
     </CustomBuild>
     <CustomBuild Include="..\..\ipv6_port.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include  
-copy %(FullPath) ..\include\%(Filename).h.new  
+copy "%(FullPath)" ..\include\%(Filename).h.new  
 c:\cygwin\bin\sed -e "s/-&gt;iph-&gt;ip_src/-&gt;ip4_header-&gt;source/" -e "s/-&gt;iph-&gt;ip_dst/-&gt;ip4_header-&gt;destination/" -e "s/-&gt;iph-&gt;/-&gt;ip4_header-&gt;/" -e "s/-&gt;iph$/-&gt;ip4_header/" -e "s/orig_iph$/orig_ip4_header/" -e "s/ip_verhl/version_headerlength/" -e "s/ip_tos/type_service/" -e "s/ip_len/data_length/" -e "s/ip_id/identifier/" -e "s/ip_off/offset/" -e "s/ip_ttl/time_to_live/" -e "s/ip_proto/proto/" -e "s/ip_csum/checksum/" -e "s/p-&gt;iph$/p-&gt;ip4_header/" ../include/%(Filename).h.new &gt; ../include/%(Filename).h</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\include\$(InputName).h;..\include\$(InputName).h.new;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir ..\include  
-copy %(FullPath) ..\include\%(Filename).h.new  
+copy "%(FullPath)" ..\include\%(Filename).h.new  
 c:\cygwin\bin\sed -e "s/-&gt;iph-&gt;ip_src/-&gt;ip4_header-&gt;source/" -e "s/-&gt;iph-&gt;ip_dst/-&gt;ip4_header-&gt;destination/" -e "s/-&gt;iph-&gt;/-&gt;ip4_header-&gt;/" -e "s/-&gt;iph$/-&gt;ip4_header/" -e "s/orig_iph$/orig_ip4_header/" -e "s/ip_verhl/version_headerlength/" -e "s/ip_tos/type_service/" -e "s/ip_len/data_length/" -e "s/ip_id/identifier/" -e "s/ip_off/offset/" -e "s/ip_ttl/time_to_live/" -e "s/ip_proto/proto/" -e "s/ip_csum/checksum/" -e "s/p-&gt;iph$/p-&gt;ip4_header/" ../include/%(Filename).h.new &gt; ../include/%(Filename).h</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\include\$(InputName).h;..\include\$(InputName).h.new;%(Outputs)</Outputs>
     </CustomBuild>
     <CustomBuild Include="..\..\mempool.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include  
-copy %(FullPath) ..\include\%(Filename).h.new  
+copy "%(FullPath)" ..\include\%(Filename).h.new  
 c:\cygwin\bin\sed -e "/SharedObjectAddStarts/d" -e "/SharedObjectAddEnds/d" -e "/SharedObjectDeleteBegins/,/SharedObjectDeleteEnds/d" -e "s/getDefaultPolicy()/_dpd.getDefaultPolicy()/" -e "s/ErrorMessage/_dpd.errMsg/" -e "s/LogMessage /_dpd.logMsg /" -e "/util.h/d" ../include/%(Filename).h.new &gt; ../include/%(Filename).h</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\include\$(InputName).h;..\include\$(InputName).h.new;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir ..\include  
-copy %(FullPath) ..\include\%(Filename).h.new  
+copy "%(FullPath)" ..\include\%(Filename).h.new  
 c:\cygwin\bin\sed -e "/SharedObjectAddStarts/d" -e "/SharedObjectAddEnds/d" -e "/SharedObjectDeleteBegins/,/SharedObjectDeleteEnds/d" -e "s/getDefaultPolicy()/_dpd.getDefaultPolicy()/" -e "s/ErrorMessage/_dpd.errMsg/" -e "s/LogMessage /_dpd.logMsg /" -e "/util.h/d" ../include/%(Filename).h.new &gt; ../include/%(Filename).h</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\include\$(InputName).h;..\include\$(InputName).h.new;%(Outputs)</Outputs>
     </CustomBuild>
     <CustomBuild Include="..\..\obfuscation.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir ..\include  
-copy %(FullPath) ..\include\%(Filename).h.new  
+copy "%(FullPath)" ..\include\%(Filename).h.new  
 c:\cygwin\bin\sed -e "s/Packet /SFSnortPacket /" -e "s/decode.h/sf_snort_packet.h/" -e "/sfportobject\.h/d" -e "s/PortObject/void/g" ../include/%(Filename).h.new &gt; ../include/%(Filename).h</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\include\$(InputName).h.new;..\include\$(InputName).h;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir ..\include  
@@ -638,6 +639,7 @@ copy %(FullPath) ..\include </Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\include\$(InputName).c;%(Outputs)</Outputs>
     </CustomBuild>
   </ItemGroup>
+  -->
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

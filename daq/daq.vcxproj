@@ -160,6 +160,7 @@
     </ClCompile>
     <ClCompile Include="os-daq-modules\daq_static_modules.c" />
   </ItemGroup>
+  <!--
   <ItemGroup>
     <CustomBuild Include="sfbpf\grammar.y">
       <FileType>Document</FileType>
@@ -178,6 +179,7 @@ c:\cygwin\bin\mv sfbpf/%(Filename).h sfbpf/tokdefs.h</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sfbpf/$(InputName).c;%(Outputs)</Outputs>
     </CustomBuild>
   </ItemGroup>
+  -->
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

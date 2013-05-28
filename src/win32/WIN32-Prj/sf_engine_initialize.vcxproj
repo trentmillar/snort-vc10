@@ -64,6 +64,7 @@
       <TypeLibraryName>.\SF_Engine_Initialize_Release\sf_engine_initialize.tlb</TypeLibraryName>
     </Midl>
   </ItemDefinitionGroup>
+  <!--
   <ItemGroup>
     <CustomBuild Include="..\..\ipv6_port.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) ..\..\dynamic-plugins\sf_engine\%(Filename).h.new  
@@ -146,6 +147,7 @@ c:\cygwin\bin\sed -e "s/\#ifndef MODULUS_HASH/\#ifdef STATIC_HASH/" ../../dynami
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dynamic-plugins\sf_engine\$(InputName).c;%(Outputs)</Outputs>
     </CustomBuild>
   </ItemGroup>
+  -->
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
